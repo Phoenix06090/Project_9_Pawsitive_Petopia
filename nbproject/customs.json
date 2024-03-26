@@ -1,0 +1,11 @@
+{
+    "elements": {},
+    "attributes": {
+        "background-image:background.jpeg": {
+            "context": "body"
+        },
+        "href": {
+            "context": "button"
+        }
+    }
+}

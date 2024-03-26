@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title> Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="RegistrationStyle.css">
+    </head>
+    <body>
+        <h1>Welcocome Folkes ,may complete Registration process here</h1>
+        <div id="container">
+
+            <h1>Registration</h1>
+            <form action="RegistrationChecker" method="post">
+
+            <table >
+                <tr>
+                    <td><strong>User:</strong></td>
+                    <td><input type="text" name="petowner" placeholder="Enter Pet Owner Name Here" ></td> 
+                </tr>
+                <tr>
+                    <td><strong>Pet Type:</strong></td>
+                    <td><select name="pettype" class="select" >
+                                <option value="" >Pet Type</option>
+                                <option value="Dog">DOG</option>
+                                <option value="Cat">CAT</option>
+                                <!--<option value="Fish">FISH</option>-->
+                                <option value="Rabbit">RABBIT</option>
+                                <!--<option value="Bird">BIRDS</option></td>-->
+               </tr>
+               <tr>
+                    <td><strong>Pet Name:</strong></td>
+                    <td><input type="text" name="petname" placeholder="Enter Pet Name Here" ></td>
+               </tr>
+               <tr>
+                    <td><strong>Pet Age:</strong></td>
+                    <td><input type="text" name="petage" placeholder="Enter Pet Age Here" ></td>
+               </tr>
+               <tr>
+                    <td><strong>Pet's Vaccination Count:</strong></td>
+                    <td><input type="text" name="vaccinecount" placeholder="Enter Pet's Vaccination Cout Here" ></td>
+               </tr>
+               <tr>
+                    <td><strong>Contact no.:</strong></td>
+                    <td><input type="text" name="phone" placeholder="Enter  your Contact no. Here" ></td>
+               </tr>
+               <tr>
+                    <td><strong>City:</strong></td>
+                    <td><input type="text" name="city" placeholder="Enter your City Here" ></td>
+                </tr>
+                <tr>
+                    <td><strong>Area:</strong></td>
+                    <td><input type="text" name="location" placeholder="Enter your Area Here" ></td>
+                </tr>
+                <tr>
+                    <td><strong>Email id:</strong></td>
+                    <td><input type="email" name="mailid" placeholder="Enter your Mail Id Here" ></td>
+               </tr>
+                <tr>
+                    <td><strong>Password:</strong></td>
+                    <td><input type="password" name="password" placeholder="Enter Password Here" ></td>
+                </tr>
+                <tr>
+                    <td><strong>Confirm Password:</strong></td>
+                    <td><input type="password" name="ConfirmPassword" placeholder="Enter Password Here" ></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input id="button"  type="submit" value="Register" ></td>
+                </tr>
+            </table>
+        </form>
+
+        </div>
+    </body>
+</html>
